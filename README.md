@@ -1,4 +1,4 @@
 # detect-AF-program
-machin learning detecting AF
+<html lang="JP">
 
 <img src='./images/example_waveforms.svg'>
