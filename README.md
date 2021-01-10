@@ -14,7 +14,9 @@
   周波数領域分析は2分以上のデータでなければ正確な値にならないので今回は除外する</p>
   <br>
   <h3>参考文献</h3>
-  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5260487/" target="_blank">Cardiac Autonomic Dysfunction and Incidence of Atrial Fibrillation in a Large Population-Based Cohort</a>
+  <ul>
+  <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5260487/" target="_blank">Cardiac Autonomic Dysfunction and Incidence of Atrial Fibrillation in a Large Population-Based Cohort</a></li>
   <br>
-  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6335694/" target="_blank">Ultra-short term HRV features as surrogates of short term HRV: a case study on mental stress detection in real life</a>
+  <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6335694/" target="_blank">Ultra-short term HRV features as surrogates of short term HRV: a case study on mental stress detection in real life</a></li>
+  </ul>
 <img src='./images/example_waveforms.svg'>
