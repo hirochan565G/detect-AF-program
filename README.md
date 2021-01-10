@@ -108,8 +108,8 @@
   <br>
   ここまでの処理は
   <ul>
-    <li>hrv_analysis-TestData.ipynb</li>
     <li>hrv_analysis_TrainData.ipynb</li>
+    <li>hrv_analysis-TestData.ipynb</li>
   </ul>
   <br>
   上記で行っているので、詳しくはこちらを参照
