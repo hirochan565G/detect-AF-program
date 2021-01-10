@@ -53,3 +53,15 @@
   <br>
   <li><a href="https://www.cardiac.jp/view.php?lang=ja&target=af_af.xml" target="_blank">ハート先生の心電図教室</a>    </li>
   </ul>
+
+<h1>主な使用ライブラリ</h1>
+  <ul>
+    <li>numpy</li>
+    <li>pandas</li>
+    <li>scipy</li>
+    <li>scikit-learn</li>
+    <li>matplotlib</li>
+  </ul>
+
+<h1>前処理</h1>
+  <p>生の心電図波形</p>
