@@ -68,5 +68,28 @@
   <br>
   生体信号は1~2mVの微弱な電位であるので、直流電流により増幅されている。
   scipyのbetrendにより除する
-  <img src='./images/example_waveforms.svg'>
+  <img src='./images/pure.png'>
+  <br>
+  生の心電図、波形の歪んでいる部分は体動によるノイズだと思われる。この場合は正常心電図である。
+  <br>
+  <img src='./images/detrend.png'>
+  <br>
+  直流成分を取り除いたことで生の心電図に電位を得る。
+  <br>
+  <img src='./images/detrend&bandpass.png'>
+  <br>
+  直流成分を取り除いた波形に対してバンドパスフィルタをかけることで、心電図の周波数である0.05〜100Hz以外の信号を減衰させる。
+  <br>
+  ブルーの波形が直流成分を取り除いたもの
+  <br>
+  オレンジがバンドパスフィルタをかけたもの
+  <br>
+  <img src='./images/bandpass&moving_average.png'>
+  <br>
+  バンドパスフィルタ後の波形に対して、移動平均をかけることで、雑音成分の電位を減衰させる。
+  <br>
+  ブルーの波形がバンドパスフィルタをかけたもの
+  <br>
+  オレンジが移動平均をしたもの
+  <br>
   </p>
