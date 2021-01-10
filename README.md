@@ -121,5 +121,7 @@
     <li>add_label_DataFrame_Test.ipynb</li>
   </ul>
   <br>
-  
+  上記を参照
   </p>
+  
+  <h1>学習と結果</h1>
