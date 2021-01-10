@@ -7,6 +7,7 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
+/physionet.org
 !/physionet.org/files/challenge-2017/1.0.0/training
 !/physionet.org/files/challenge-2017/1.0.0/validation
 /practice
