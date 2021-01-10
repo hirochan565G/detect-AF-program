@@ -101,5 +101,25 @@
   心室細動などの致死的な不整脈が発生している場合が考えられるので、今回は心房細動がターゲットのため、このような設定にした。
   <br>
   オレンジの✖印が検出を表す。
+  <br>
+  <img src='./images/RRI.png'>
+  <br>
+  RRIデータに対して解析を行う
+  <br>
+  ここまでの処理は
+  <ul>
+    <li>hrv_analysis-TestData.ipynb</li>
+    <li>hrv_analysis_TrainData.ipynb</li>
+  </ul>
+  <br>
+  上記で行っているので、詳しくはこちらを参照
+  <br>
+  また、ラベル付は
+  <br>
+  <ul>
+    <li>add_label_DataFrame_Training.ipynb</li>
+    <li>add_label_DataFrame_Test.ipynb</li>
+  </ul>
+  <br>
   
   </p>
