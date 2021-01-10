@@ -19,4 +19,37 @@
   <br>
   <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6335694/" target="_blank">Ultra-short term HRV features as surrogates of short term HRV: a case study on mental stress detection in real life</a></li>
   </ul>
-<img src='./images/example_waveforms.svg'>
+  
+<h1>背景</h1>
+  <p>日本循環器学会の心房細動治療ガイドライン2013によれば、日本では71.6万人の患者おり、2050年には103万人達すると言われている。
+  また、アメリカ、EUにおいてもそれぞれ230万人（2013）、880万人（2010）と多数の患者いる。
+  <br>
+  心房細動は心臓の上部（心房）が200〜300回程度小刻みに拍動するが、心臓の下部（心室）は通常の拍動をしようとし、心房と心室でギャップが生じることで血液の流れが悪くなり、特に心臓の左上部の左房で血栓が生じ、この血栓が脳に至ると脳塞症を引き起こす。また、合併症として心不全もある重要度が高い疾患である。
+  <br>
+  下図はデータセットに含まれる波形でそれぞれ
+  <ul>
+    <li>Nomal rhythm:正常心電図
+    <br>
+    正常心電図でも体動による雑音が混入したりする。心拍数は60〜80程度である。
+    </li>
+    <li>AF rhythm:心房細動
+    <br>
+    心房細動は心拍間隔（RRI）が一定でなく、臨床的に痙攣のような拍動をしているので、RRIの標準偏差であるSDNNはバラつきやすい。
+    </li>
+    <li>Other rhythm:その他不整脈
+    <br>
+    この例で出されているのは心室性期外収縮であるが、今回は分類対象として細分化することはせずに、
+    その他不整脈として扱う。</li>
+    <li>Noisy recording:雑音成分が多すぎる波形
+    <br>
+    雑音は筋電図の混入や交流電源などにより発生する。これが今回のデータセットのなかでも厄介な存在になる。
+    </li>
+  </ul>
+  </p>
+  <img src='./images/example_waveforms.svg'>
+  <h3>参考文献及びサイト</h3>
+  <ul>
+  <li><a href="https://www.j-circ.or.jp/old/guideline/pdf/JCS2013_inoue_h.pdf" target="_blank">心房細動治療（薬物）ガイドライン（2013年改訂版）</a></li>
+  <br>
+  <li><a href="https://www.cardiac.jp/view.php?lang=ja&target=af_af.xml" target="_blank">ハート先生の心電図教室</a>    </li>
+  </ul>
